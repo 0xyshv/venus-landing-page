@@ -1,0 +1,61 @@
+.mainBanner {
+  background-image: url(../../public/background.png);
+  background-position: 60vw 0;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  background-color: black;
+  padding: 13% 10%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.heading {
+  font-size: 40px;
+  margin-bottom: 5%;
+  line-height: 1.5;
+}
+.descrption {
+  margin-bottom: 5%;
+  line-height: 2;
+}
+.launchBtn {
+  margin-top: 30%;
+  margin-bottom: 30%;
+  background-color: #008cba;
+  color: white;
+  border: 0.8px solid #008cba;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.launchBtn:hover {
+  background-color: #0f495c;
+  color: white;
+}
+
+.buttonGroup {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+.links {
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.links:hover {
+  color: #121620d1;
+}

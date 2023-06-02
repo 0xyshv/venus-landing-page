@@ -1,0 +1,21 @@
+.featureCards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  gap: 2rem;
+  padding: 0 10%;
+}
+
+.featureContent {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex: 1;
+  max-width: 350px;
+  padding: 24px;
+  background-color: #2a2b36;
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+}
