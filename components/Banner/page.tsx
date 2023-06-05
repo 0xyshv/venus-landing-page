@@ -24,14 +24,26 @@ const Banner = () => {
           </a>
         </div>
         <div className={styles.buttonGroup}>
+          {/* <h4>
+            Lend <span>&#x279D;</span>
+          </h4>
+          <h4>
+            Borrow <span>&#x279D;</span>
+          </h4>
+          <h4>
+            Earn<span>&#x279D;</span>
+          </h4> */}
           <a href="" target="_blank" className={styles.links}>
-            Lend &#x279D;
+            Lend <span className={styles.pointer}>&#x279D;</span>
           </a>
+          <span className={styles.vl}></span>
+
           <a href="" target="_blank" className={styles.links}>
-            Borrow &#x279D;
+            Borrow <span className={styles.pointer}>&#x279D;</span>
           </a>
+          <span className={styles.vl}></span>
           <a href="" target="_blank" className={styles.links}>
-            Earn &#x279D;
+            Earn <span className={styles.pointer}>&#x279D;</span>
           </a>
         </div>
       </div>

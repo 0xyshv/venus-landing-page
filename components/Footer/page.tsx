@@ -1,5 +1,7 @@
+"use client";
 import React from "react";
 import styles from "./footer.module.css";
+import { GitHub } from "@mui/icons-material";
 
 const Footer = () => {
   return (
@@ -29,7 +31,9 @@ const Footer = () => {
           <a href="" target="_blank" className={styles.handles}></a>
           <a href="" target="_blank" className={styles.handles}></a>
 
-          <a href="" target="_blank" className={styles.handles}></a>
+          <a href="" target="_blank" className={styles.handles}>
+            <GitHub />
+          </a>
         </div>
       </div>
     </>

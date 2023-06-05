@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./markets.module.css";
 
-const Markets = () => {
+const AssetRow = ({}) => {
   return <div>Markets</div>;
 };
 
-export default Markets;
+export default AssetRow;

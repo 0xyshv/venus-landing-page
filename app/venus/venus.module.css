@@ -2,3 +2,12 @@
   opacity: 0.8;
   background-color: black;
 }
+.featureCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  gap: 2rem;
+  padding: 0 10%;
+}

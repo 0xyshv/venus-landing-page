@@ -1,57 +1,32 @@
-import React from "react";
+import React, { Component } from "react";
 import styles from "./cards.module.css";
+import AutoAwesomeMotionOutlined from "@mui/icons-material/AutoAwesomeMotionOutlined";
 
-const Cards = () => {
+interface Props {
+  logo: string;
+  title: string;
+  description: string;
+}
+
+const Card = ({ logo, title, description }: Props) => {
   return (
-    <div className={styles.featureCards}>
-      <div className={styles.featureContent}>
-        <p>
-          <span>&#x232c;</span>
-        </p>
-        <br />
-        <br />
-        <br />
-        <br />
-        <h3>Decentralized</h3>
-        <br />
-        <p>
-          Access an immutable money market <br />
-          directly on-chain.
-        </p>
-      </div>
-      <div className={styles.featureContent}>
-        <p>
-          <span>&#13038;</span>
-        </p>
-        <br />
-        <br />
-        <br />
-        <br />
-        <h3>BEP-30</h3>
-        <br />
-        <p>
-          All Venus Protocol assets are bound
-          <br />
-          by the BEP-20 standard.
-        </p>
-      </div>
-      <div className={styles.featureContent}>
-        <p>
-          <span>&#x2026;</span>
-        </p>
-        <br />
-        <br />
-        <br />
-        <br />
-        <h3>Scalable</h3>
-        <br />
-        <p>
-          Built on BNB Chain for fast, secure, <br />
-          and low cost transactions.
-        </p>
-      </div>
+    <div className={styles.featureContent}>
+      <p>
+        <span>
+          {logo == "abc" ? <AutoAwesomeMotionOutlined /> : <></>}
+          {logo == "abc" ? <AutoAwesomeMotionOutlined /> : <></>}
+          {logo == "abc" ? <AutoAwesomeMotionOutlined /> : <></>}
+        </span>
+      </p>
+      <br />
+      <br />
+      <br />
+      <br />
+      <h3>{title}</h3>
+      <br />
+      <p>{description}</p>
     </div>
   );
 };
 
-export default Cards;
+export default Card;
