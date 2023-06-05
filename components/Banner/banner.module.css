@@ -55,11 +55,6 @@
   margin: 4px 2px;
   cursor: pointer;
   display: inline-block;
-  transition: transform 200ms ease-in;
-}
-
-.links:hover {
-  transform: translateX(2px);
 }
 
 .vl {
@@ -69,7 +64,7 @@
 
 .pointer {
   display: inline-block;
-  transition: transform 200ms ease-in;
+  transition: transform 200ms;
 }
 .pointer:hover {
   color: #008cba;

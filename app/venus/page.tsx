@@ -10,17 +10,17 @@ import AssetRow from "@/components/AssetRow/page";
 
 const cards = [
   {
-    logo: "abc",
+    logo: "a",
     title: "Decentralized",
     description: "Access an immutable money market directly on-chain.",
   },
   {
-    logo: "foivucjef",
+    logo: "b",
     title: "BEP-20",
     description: "All Venus Protocol assets are bound by the BEP-20 standard.",
   },
   {
-    logo: "vce",
+    logo: "c",
     title: "Scalable",
     description:
       "Built on BNB Chain for fast, secure, and low cost transactions.",

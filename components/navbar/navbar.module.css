@@ -29,7 +29,7 @@
   transition: color 300ms;
 }
 .links:hover {
-  color: #121620d1;
+  color: grey;
 }
 .launchBtn {
   background-color: #121620d1;
