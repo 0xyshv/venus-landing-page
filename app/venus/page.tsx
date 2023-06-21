@@ -36,6 +36,16 @@ const Venus = () => {
     <div className={styles.mainContainer}>
       <Navbar />
       <Banner />
+
+      {/* Market Section */}
+      <div className={styles.assets}>
+        {" "}
+        {assets.map((asset) => (
+          <AssetRow />
+        ))}
+      </div>
+
+      {/* card section */}
       <div className={styles.featureCards}>
         {" "}
         {cards.map((card) => (
@@ -44,13 +54,6 @@ const Venus = () => {
             title={card.title}
             description={card.description}
           />
-        ))}
-      </div>
-      {/* Market Section */}
-      <div className={styles.assets}>
-        {" "}
-        {assets.map((asset) => (
-          <AssetRow />
         ))}
       </div>
 
